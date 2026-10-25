@@ -1,2 +1,2 @@
-{"name":"TO DO 10DEC","short_name":"TO DO","id":"/TO-DO/","start_url":"/TO-DO/?app=1","scope":"/TO-DO/","display":"standalone","background_color":"#7b3fe4","theme_color":"#7b3fe4","lang":"fr",
+{"name":"TO DO · 10 Doigts","short_name":"TO DO","id":"/TO-DO/?appli=todo2","start_url":"/TO-DO/?app=2","scope":"/TO-DO/","display":"standalone","background_color":"#7b3fe4","theme_color":"#7b3fe4","lang":"fr",
 "icons":[{"src":"/TO-DO/todo-192.png?v=2","sizes":"192x192","type":"image/png"},{"src":"/TO-DO/todo-512.png?v=2","sizes":"512x512","type":"image/png"},{"src":"/TO-DO/todo-maskable-512.png?v=2","sizes":"512x512","type":"image/png","purpose":"maskable"}]}

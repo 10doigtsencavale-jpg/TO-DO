@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex,nofollow">
 <title>TO DO 10DEC</title>
-<link rel="manifest" href="/TO-DO/manifest.json?v=2">
+<link rel="manifest" href="/TO-DO/manifest.json?v=3">
 <link rel="icon" type="image/png" href="/TO-DO/todo-32.png?v=2">
 <link rel="apple-touch-icon" sizes="180x180" href="/TO-DO/todo-touch-180.png?v=2">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -18,7 +18,7 @@
 <script>
   // Lien du tableau de bord (page Claude). Ouvert tout de suite quand on lance l'appli depuis l'écran d'accueil.
   var TDB = "https://claude.ai/artifact/4G9TdQknFxk3gJMVVq8kz3";
-  var appli = (window.matchMedia && matchMedia("(display-mode: standalone)").matches) || window.navigator.standalone === true || /[?&]app=1/.test(location.search);
+  var appli = (window.matchMedia && matchMedia("(display-mode: standalone)").matches) || window.navigator.standalone === true || /[?&]app=[0-9]/.test(location.search);
   if (appli) location.replace(TDB);
 </script>
 <style>
